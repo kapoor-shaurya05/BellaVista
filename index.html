@@ -6,10 +6,12 @@
     <meta name="Description" content="Bella Vista - Authentic Italian Restaurant serving fresh pasta, wood-fired pizzas , and traditional Italian Cuisine in the heart of the city.">
     <title>Bella Vista Restaurant - Authentic Italian Cuisine</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/bellavista logo.png" type="image/x-icon">
 </head>
 <body> 
 
     <header class="header">
+        
         <div class="container">
             <nav class="navbar">
 
@@ -27,6 +29,7 @@
 
             </nav>
         </div>
+
     </header>
 
     <main>
@@ -85,6 +88,76 @@
                     </div>
                     <div class="about-image">
                         <img src="assets/about-image.jpg" alt="Restaurant interior">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="Contact" class="cotact">
+            <div class="container">
+                <h2 class="section-title">Contact Us</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Get in Touch</h3>
+                        <div class="contact-item">
+                            <strong>Address</strong>
+                            <p>742, Dargi Gali, Punjabi Colony, Shikohabad</p>
+                        </div>
+                        <div class="contact-item">
+                            <strong>Phone no.</strong>
+                            <p>(+91)-844-5324444</p>
+                        </div>
+                        <div class="contact-item">
+                            <strong>Email</strong>
+                            <p>info@bellavista.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-form">
+                        <h3>Make a Reservation</h3>
+                        <form action="#">
+                            <div class="form-group">
+                                <label for="name">Full Name:</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email:</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone no.:</label>
+                                <input type="tel" id="phone" name="phone" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="date">Reservation date:</label>
+                                <input type="date" id="date" name="date" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="time">Time:</label>
+                                <select name="time" id="time" required>
+                                    <option value="">Select Time</option>
+                                    <option value="18:00">6 pm</option>
+                                    <option value="19:00">7 pm</option>
+                                    <option value="20:00">8 pm</option>
+                                    <option value="21:00">9 pm</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="guests">Number of Guests:</label>
+                                <select name="guests" id="guests" required>
+                                    <option value="">Number of Guests</option>
+                                    <option value="1">1 guest</option>
+                                    <option value="2">2 guests</option>
+                                    <option value="3">3 guests</option>
+                                    <option value="4">4 guests</option>
+                                    <option value="5">5 guests</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="request">Any Special Request:</label>
+                                <textarea name="request" id="request" rows="4" placeholder="Ny special dietary requirement or requests..."></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-1st">Submit Reservation</button>
+                        </form>
                     </div>
                 </div>
             </div>
