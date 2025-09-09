@@ -1,5 +1,5 @@
-#Bella Vista
-Bella Vista is a responsive frontend website designed for a restaurant.
+##Bella Vista
+It is a responsive frontend website designed for a restaurant.
 <br>
 It includes sections like:- <br>
 <ol>
